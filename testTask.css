@@ -159,6 +159,11 @@ body {
         position: absolute;
         right: 1rem;
     }
+    
+        .second_section_img {
+        position: absolute;
+        right: 50rem;
+    }
 }
 
 
