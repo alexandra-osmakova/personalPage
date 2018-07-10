@@ -95,6 +95,13 @@ body {
     transform-origin: 51% 90%;
 }
 
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    .second_section_img {
+    position: absolute;
+    right: 1rem;
+     width: 35%; 
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
     body {
