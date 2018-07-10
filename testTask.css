@@ -1,0 +1,142 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main {
+    background-color: #F0F0F0; 
+    padding: 2rem;
+}
+
+.section {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.first_section_img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+
+.second_section_img {
+    position: absolute;
+    right: 15.5rem;
+}
+
+.info_text {
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.grid_elem {
+    line-height: 3.5rem;
+    text-align: center;
+    display: flex;
+}
+
+.mark {
+    background-color: #F0F0F0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.checked {
+    background-color: #1794D4;
+    color: white;
+    line-height: 1rem;
+}
+
+.section_name, .level {
+    padding: 0 0 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.level_info, .level_meter {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.level {
+    text-align: center;
+    padding: 1rem;
+}
+
+.number {
+    padding: 1rem;
+    color: #1794D4;
+    font-size: 2.5rem;
+    font-weight: 600;
+    
+}
+
+
+.arrow {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); 
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: 51% 90%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .section_name, .level {
+        font-size: 1rem;
+    }
+
+    .second_section_img {
+        position: absolute;
+        right: 1rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .section_name, .level {
+        font-size: 1.2rem;
+    }
+    .second_section_img {
+        position: absolute;
+        right: 1rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 900px) {
+    .second_section_img {
+        position: absolute;
+        right: 1rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .second_section_img {
+        position: absolute;
+        right: 12rem;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 3000px) {
+    body {
+        font-size: 20px; 
+    }
+}
