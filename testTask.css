@@ -148,4 +148,9 @@ body {
     body {
         font-size: 20px; 
     }
+    
+        .second_section_img {
+        position: absolute;
+        right: 50rem;
+    }
 }
